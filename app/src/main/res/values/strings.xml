@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Javaloginschema</string>
+    <string name="lbl_email_login">Email:</string>
+    <string name="img_description">Enterprise background</string>
 </resources>
