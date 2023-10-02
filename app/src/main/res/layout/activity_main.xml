@@ -33,6 +33,66 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
+        <TextView
+            android:id="@+id/lblEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_email_login"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            />
 
+        <EditText
+            android:id="@+id/txtEmail"
+            android:layout_width="325dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="16dp"
+            android:padding="16dp"
+            android:textSize="16sp"
+            android:textColor="@color/purple2"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:hint="@string/txt_email_hint"
+            android:autofillHints="@string/txt_email_hint"
+            android:background="@drawable/edittext_background"
+            />
+
+        <TextView
+            android:id="@+id/lblPassword"
+            android:layout_marginTop="32dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_password_login"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            />
+
+        <EditText
+            android:id="@+id/txtPassword"
+            android:layout_width="325dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="16dp"
+            android:padding="16dp"
+            android:textSize="16sp"
+            android:textColor="@color/purple"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:hint="@string/txt_email_hint"
+            android:autofillHints="@string/txt_password_hint"
+            android:background="@drawable/edittext_background"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnLogin"
+            android:layout_width="325dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:text="@string/btn_login_text"
+            android:background="@drawable/login_btn_background"
+            style="@android:style/Widget.Button"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+        />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
