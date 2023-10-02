@@ -8,84 +8,31 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="261dp"
+        android:layout_marginBottom="325dp"
+        android:contentDescription="@string/img_description"
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:contentDescription="@string/img_description"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/background" />
 
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
-        android:layout_marginEnd="32dp"
         android:layout_marginTop="14dp"
+        android:layout_marginEnd="32dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <TextView
-            android:id="@+id/lblEmail"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/lbl_email_login"
-            android:textSize="18sp"
-            android:textColor="@color/white"
-            />
 
-        <EditText
-            android:id="@+id/txtEmail"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:layout_marginTop="16dp"
-            android:padding="16dp"
-            android:textSize="16sp"
-            android:textColor="@color/purple"
-            android:ems="10"
-            android:inputType="textEmailAddress"
-            android:hint="@string/txt_email_hint"
-            android:autofillHints="@string/txt_email_hint"
-            android:background="@drawable/edittext_background"
-            />
-
-        <TextView
-            android:id="@+id/lblPassword"
-            android:layout_marginTop="32dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/lbl_password_login"
-            android:textSize="18sp"
-            android:textColor="@color/white"
-            />
-
-        <EditText
-            android:id="@+id/txtPassword"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:layout_marginTop="16dp"
-            android:padding="16dp"
-            android:textSize="16sp"
-            android:textColor="@color/purple"
-            android:ems="10"
-            android:inputType="textPassword"
-            android:hint="@string/txt_email_hint"
-            android:autofillHints="@string/txt_password_hint"
-            android:background="@drawable/edittext_background"
-            />
-
-        <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/btnLogin"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="48dp"
-            android:text="@string/btn_login_text"
-            android:background="@drawable/loginbtn_background"
-            />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
