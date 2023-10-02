@@ -36,15 +36,23 @@
             android:layout_height="wrap_content"
             android:text="@string/lbl_email_login"
             android:textSize="18sp"
-            android:textColor="#ffffff"
+            android:textColor="@color/white"
             />
 
         <EditText
             android:id="@+id/editTextTextPersonName"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="16dp"
+            android:padding="16dp"
+            android:textSize="16sp"
+            android:textColor="@color/purple"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Name" />
+            android:hint="@string/txt_email_hint"
+            android:autofillHints="@string/txt_email_hint"
+            android:background="@drawable/edittext_background"
+
+            />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
