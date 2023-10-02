@@ -2,4 +2,5 @@
     <string name="app_name">Javaloginschema</string>
     <string name="lbl_email_login">Email:</string>
     <string name="img_description">Enterprise background</string>
+    <string name="txt_email_hint">Enter your Email</string>
 </resources>
